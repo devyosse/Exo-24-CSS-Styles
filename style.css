@@ -1,1 +1,71 @@
+.produit {
+    color: coral;
+    font-style: italic;
+}
 
+.reference{
+    color: black;
+    font-style: italic;
+}
+
+.general {
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+.div3{
+    color: blue;
+    font-size: small;
+}
+
+.h31,.h32{
+    color: red;
+    text-transform: uppercase;
+}
+
+.block {
+    text-transform: capitalize;
+}
+
+blockquote p::first-letter {
+    color: green;
+
+}
+
+* {
+    font-family: verdana arial Calibri sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: arial;
+}
+
+blockquote p::first-letter {
+    font-family: fantasy;
+}
+
+.tete {
+    text-transform: lowercase;
+}
+
+blockquote {
+    size: 20px;
+}
+
+.h31, .h32 {
+    text-decoration: underline;
+}
+
+.div1, .produit, .reference,.general, .block, .tete ::first-letter {
+    text-transform: capitalize;
+}
+
+* {
+    background-color: white;
+}
+
+.div3 {
+    background-color: #C0C0C0;
+}
